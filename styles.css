@@ -18,6 +18,8 @@ html, body {
   justify-content: space-between;
   padding-left: 130px;
   padding-right: 68px;
+  padding-top: 1%;
+  align-items: flex-start;
 }
 
 #header-logo {
@@ -131,30 +133,42 @@ html, body {
   display: flex;
   padding: 100px 520px;
   flex-flow: column;
+  font-size: 36px;
+  align-items: center;
 }
 
 #quote-text {
   font-style: italic;
-  font-size: medium;
+  min-width: 500px;
 }
 
 #quote-by {
   font-weight: bold;
   align-self: flex-end;
+  font-size: 30px;
+  min-width: 300px;
 }
 
 .advert {
   display: flex;
-  flex-direction: row;
   flex: 1;
   background-color: #3882F6;
   color: white;
   padding: 2.5%;
+  justify-content: space-around;
+  margin: 4% 12%;
 }
 
-.advert-text {
+.a-text {
   background-color: #3882F6;
   display: flex;
   flex-direction: column;
-  flex-basis: 50px;
+}
+
+.a-button {
+  color: white;
+  border: white;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 1.5% 5%;
 }
